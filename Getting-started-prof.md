@@ -16,6 +16,20 @@ se compone de 3 sesiones:
 - 1 sesión de 3 horas los jueves
 - 1 sesión de 5 horas los sábados.
 
+### Formato sugerido para clases, entre semana:
+
+- 15 minutos, de "Ciencia de Datos en la semana".
+- 1 hora y 15 minutos, de Clase 
+- 10 minutos de descanso
+- 1 hora y 15 minutos de Segunda Clase
+- 15 minutos de retrospectiva y cierre.
+
+### Formato sugerido para clase, sábado:
+
+- 30 minutos de revisión del Estado del Arte en el tema de la Semana
+- 1 hora y media de clase en el tópico
+- Media hora de retrospectiva semanal y material sugerido para profundizar
+- 2-3 horas de reto Kaggle.
 
 ### Estilo de las clases
 
