@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+import argparse
 from bisect import bisect_right as bisect
 
 def score_card(tca=None, amount=None,pet=None,age=None):
@@ -25,7 +25,28 @@ def score_card(tca=None, amount=None,pet=None,age=None):
   thescore = tca_score + amount_score + pet_score + age_score
   return thescore
 
+def main():
+  parser = argparse.ArgumentParser()
+  parser.add_argument("-t", "--tca", dest="tca", type=int,
+                     action="store", help="time credit account")
+  parser.add_argument("-a", "--amount", type=int,
+                     action="store", dest="amount", help="amount")
+  parser.add_argument("-p", "--pet", type=int,
+                      action="store", dest="pet", help="present employment time")
+  parser.add_argument("-g", "--age", type=int,
+                    action="store", dest="age", help="age")
+  args = parser.parse_args()
+  argsdict = vars(args)
+  if len(argsdict) != 4:
+    parser.error("incorrect number of arguments")
+  else:
+    tca = argsdict['tca']
+    amount = argsdict['amount']
+    pet = argsdict['pet']
+    age = argsdict['age']
+    result = score_card(tca=tca, amount=amount, pet=pet, age=age)
+    return result
 
 if __name__ == "__main__":
-  result = score_card(tca=0, amount=5000, pet=4, age=34)
+  result = main()
   print(result)
