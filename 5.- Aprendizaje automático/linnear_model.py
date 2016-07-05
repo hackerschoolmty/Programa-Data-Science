@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from pandas import read_csv
-from numpy import linalg
+from numpy import linalg, array
 
 class LinnearModel():
   def __init__(self, varnames = []):
@@ -39,7 +39,7 @@ class LinnearModel():
     for var in self.varnames:
       if var == 'ones' or var == 'is_good': continue
       values.append(vars[var])
-    score = sum(self.betas * values)
+    score = sum(array(self.betas) * array(values))
     return score
 
 if __name__ == "__main__":
