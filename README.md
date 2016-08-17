@@ -13,3 +13,12 @@ Este programa busca darte las herramientas y conocimientos necesarios para apren
 - Semana 5: Aprendizaje automático.
 - Semana 6: Comunicación, Visualización y Productos de Datos.
 - Semana 7: Data Science Code Retreat.
+
+# Criterios de Graduación
+
+En Hacker School sabemos lo importante que es terminar uno de los programas, ya que es un esfuerzo de 7 semanas que no solo se basa en la asistencia a cada una de las sesiones, sino en otros criterios que consideramos justos tanto para los mentores como los demas alumnos:
+
+- Pago completo
+- Prueba de avance semanal en el reto kaggle.
+- Cumplir al menos con el nivel básico del reto kaggle
+- Tu proyecto final está en tu perfil de GitHub
