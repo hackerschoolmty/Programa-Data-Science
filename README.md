@@ -9,7 +9,7 @@ Este programa busca darte las herramientas y conocimientos necesarios para apren
 - Semana 1: Introducción a Python. Python Avanzado.
 - Semana 2: Scientific Python Stack y Big Data Engineering.
 - Semana 3: Análisis exploratorio de datos y estadística para sobrevivir en el mundo real.
-- Semana 4: Descubrimiento de conocimiento y knowledge discovery.
+- Semana 4: Feature engineering y knowledge discovery.
 - Semana 5: Aprendizaje automático.
 - Semana 6: Comunicación, Visualización y Productos de Datos.
 - Semana 7: Data Science Code Retreat.
